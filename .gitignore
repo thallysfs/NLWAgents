@@ -1,0 +1,93 @@
+# Dependências do Node
+node_modules/
+.pnp
+.pnp.js
+
+# Logs e databases
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.DS_Store
+
+# Variáveis de ambiente
+.env*.local
+.env
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de build e diretórios
+dist/
+build/
+.next/
+out/
+.serverless/
+.turbo/
+.cache/
+.vscode-test/
+
+# Configurações do IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Configurações específicas do React/Next
+.next
+.next/*
+!.next/cache/
+.next/cache/*
+!*.json
+
+# Configurações do Jest
+coverage/
+.nyc_output
+
+# Configurações do Storybook
+storybook-static/
+
+# Configurações do TypeScript
+*.tsbuildinfo
+
+# Configurações do npm/yarn
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Configurações do sistema operacional
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Configurações do debug
+*.pid
+*.seed
+*.pid.lock
+
+# Configurações do Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress.env.json
+
+# Configurações do Parcel
+.cache/
+.parcel-cache/
+
+# Configurações do ESLint/Prettier
+.eslintcache
+.prettierignore
+
+# Configurações do Svelte
+.svelte-kit/
