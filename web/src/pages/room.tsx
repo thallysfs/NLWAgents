@@ -1,3 +1,3 @@
-export function CreateRoom() {
-  return <div>Room details</div>
+export function Room() {
+  return <div>Room!!!</div>;
 }
