@@ -1,6 +1,7 @@
 import { reset, seed } from 'drizzle-seed';
 import { db, sql } from './connections.ts';
 import { schema } from './schema/index.ts';
+import { questions } from './schema/questions.ts';
 
 await reset(db, schema);
 
@@ -13,6 +14,9 @@ await seed(db, schema).refine((f) => {
         description: f.loremIpsum(),
       },
     },
+    questions: {
+      count: 20,
+    }
   };
 });
 
